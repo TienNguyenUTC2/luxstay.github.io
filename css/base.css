@@ -1,0 +1,76 @@
+:root {
+  --primary-color: #555;
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #333;
+  --border-color: #dbdbdb;
+  --hover-color: #f65e39;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.magintb-16 {
+  margin: 16px 0;
+}
+.mb-36 {
+  margin-bottom: 36px;
+}
+.mg-t10 {
+  margin-top: 10px;
+}
+.transform-none {
+  transform: none;
+}
+.dkdk:hover {
+  color: var(--hover-color);
+  text-decoration: underline;
+}
+.dkdk {
+  text-decoration: underline;
+}
+.click__disabled-next-sale {
+  position: absolute;
+  border: none;
+  height: 56px;
+  width: 56px;
+  right: 0;
+  border-radius: 50%;
+  transform: translateX(-150%);
+  z-index: 1;
+}
+.click__disabled-perv-suggestion {
+  position: absolute;
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  border: none;
+  transform: translate(-50%, -15px);
+  z-index: 1;
+}
+.click__disabled-next-suggestion {
+  position: absolute;
+  border: none;
+  height: 56px;
+  width: 56px;
+  right: 0;
+  border-radius: 50%;
+  transform: translate(-150%, -15px);
+  z-index: 1;
+}
+.luxstay__link {
+  color: var(--text-color);
+}
